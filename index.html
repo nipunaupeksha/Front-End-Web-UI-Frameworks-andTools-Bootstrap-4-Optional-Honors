@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>English to Sinhala Translator</title>
+</head>
+
+<body>
+    <header class="jumbotron bg-dark">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-12 col-sm-8 mt-0 mb-0">
+                    <img src="./images/Web 1920 – 4.png" alt="">
+                    <!-- <p>We convert English to Sinhala and offer font face changes</p> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--English Text-->
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-sm-6 col-md-6">
+                <h3 class="text-uppercase">Enter your text in English</h3>
+                <textarea class="border rounded border-dark form-control" rows=10 id="english-text"></textarea>
+            </div>
+        </div>
+    </div>
+    <!--Buttons-->
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="dropdown col-6 col-sm-4 flext-first mt-2 mb-5">
+                <button class="btn btn-secondary dropdown-toggle text-uppercase" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Font
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Isiwara</a>
+                    <a class="dropdown-item" href="#">Astro</a>
+                    <a class="dropdown-item" href="#">Mihindu</a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 flext-last mt-2 mr-0 mb-5">
+                <button type="button" class="btn btn-secondary text-uppercase">Convert</button>
+            </div>
+        </div>
+    </div>
+    <!--Sinhala Text-->
+    <div class="container mb-5">
+        <div class="row row-content align-items-center">
+            <div class="col-sm-6 col-md-6">
+                <h3 class="text-uppercase">Converted Text</h3>
+                <textarea class="border rounded border-dark form-control" rows=10 id="sinhala-text"></textarea>
+                <!-- Icons -->
+                <div class="text-center ">
+                    <i class="fal fa-paste pr-5 pl-5"></i>
+                    <i class="fas fa-save pr-5"></i>
+                    <i class="fas fa-file-pdf pr-5"></i>
+                    <i class="fas fa-file-word  pr-5"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
